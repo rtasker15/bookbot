@@ -10,7 +10,8 @@ def get_book_text():
 
 def main():
     raw_text = get_book_text()
-    #count_words(raw_text)
     count_characters(raw_text)
+    count_words(raw_text)
+
 
 main()
